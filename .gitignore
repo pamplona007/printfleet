@@ -1,0 +1,22 @@
+# Go
+apps/server/bin/
+apps/server/vendor/
+*.test
+coverage.out
+
+# Node / frontend
+node_modules/
+dist/
+apps/web/dist/
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+!.env.example
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
